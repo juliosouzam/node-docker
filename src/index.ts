@@ -53,7 +53,7 @@ async function main() {
   });
 
   try {
-    app.listen({ port: 3333 }, () => console.log('running at port: ', 3333));
+    app.listen({ port: 3000 }, () => console.log('running at port: ', 3000));
   } catch (err) {
     process.exit(1);
   }
